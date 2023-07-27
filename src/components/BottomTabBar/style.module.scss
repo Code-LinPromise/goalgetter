@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: var(--bottom-tab-bar-bg-color);
+    justify-content: space-between;
+    >.leftIcon{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        >li{
+            width: 50%;
+            text-align: center;
+        }
+    }
+    >.middleAdd{
+        border-radius: 50%;
+        background-color: var(--button-tab-add-bg-color);
+        position: absolute;
+        height: 53px;
+        width: 53px;
+        top:0;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-50%,-50%);
+    }
+    >.rightIcon{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        >li{
+            width: 50%;
+            text-align: center;
+        }
+    }
+    .active{
+        color: var(--button-tab-router-link-color);
+    }
+}

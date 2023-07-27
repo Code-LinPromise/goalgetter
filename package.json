@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
     "sass": "^1.64.1",
     "vant": "^4.6.3",

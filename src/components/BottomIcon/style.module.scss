@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    >span{
+        margin-top: 2px;
+        color: inherit;
+    }
+}

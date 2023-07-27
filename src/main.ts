@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import './style.scss'
 import App from './App.tsx'
+import 'vant/lib/index.css';
 import { routes } from './router/index.ts'
 import {createRouter,createWebHashHistory} from 'vue-router'
 
