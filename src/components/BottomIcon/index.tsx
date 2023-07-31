@@ -31,7 +31,7 @@ export const BottomIcon= defineComponent({
         return (
             <div class={s.wrapper}>
                 <Icon name={props.iconName} dot={props.isDot} size={props.size} color={props.color}></Icon>
-                <span>{props?.title}</span>
+                <span style={{color:props.color}}>{props?.title}</span>
             </div>
         );
         };
